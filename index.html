@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>My First Blog</title>
+
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/css/form.css" />
+
+  <script defer src="./assets/js/logic.js" type="text/javascript"></script>
+  <script defer src="./assets/js/form.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <!-- TODO: Create landing page elements to match the mock-up provided. At the very least, include the following elements. -->
+  <header>
+    <h1>sunrise... SUNSET</h1>
+    <button id="toggle">☀️</button>
+  </header>
+  <!-- A form element that contains the following: -->
+  <main>
+    <aside></aside>
+    <section>
+      <h2>THE EVIL MASTERPLAN!</h2>
+    </section>
+    <h1>Form</h1>
+    <form>
+      <!-- An input element whose label and id are `username` -->
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" />
+
+      <!-- An input element whose label and id are `title` -->
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" />
+
+      <!-- A textarea element whose label and id are `content` -->
+        <textarea id="content" name="content" rows="5" placeholder="Write your blog content here"></textarea>
+
+      <!-- A p element whose id is `error` -->
+      <p id="error">&nbsp;</p>
+      <!-- A button element that has an id of `submit` -->
+      <button id="submit">Submit</button>
+           <p id="error" style="display:none;">Please complete the form.</p>
+
+        <button type="submit">Publish</button>
+    </form>
+  </main>
+</body>
+
+</html>
